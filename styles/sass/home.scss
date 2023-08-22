@@ -1,0 +1,53 @@
+.nh__header {
+    &__content {
+        position: relative;
+        margin: 5% 20%;
+        padding: 15px;
+        border: 13px solid black;
+
+    }
+    &__logo {
+        font-family: Almarai, Arial, Helvetica, sans-serif;
+        font-size: 120px;
+        text-align: center;
+    }
+}
+.nh__intro {
+    &__content {
+        margin: 5% 25%;
+         text-align: center;
+         font-size: 20px;
+    }
+    &__p {
+        font-size: 20px;
+        color: black;
+    }
+    &__option {
+        font-size: 90px;
+        text-align: center;
+        &__periodistico {
+            font-weight: bold;
+            color: #FE6D00;
+        }
+        &__creativo {
+            font-weight: bold;
+            color: #00BFFF;
+        }
+    }
+}
+.nh__footer {
+    margin-top: 5%;
+    text-align: center;
+    
+    &__linkedin{
+        margin: auto;
+        padding: auto;
+        font-weight: bold;
+        font-size: 32px;
+        }
+    &__line {
+        background: #000;
+        height:0.5vh;
+        width: 15%;    
+    }
+}

@@ -1,0 +1,71 @@
+.nh__perfil__header {
+    &__content {
+        width: 751px;
+        position: relative;
+        margin: 5% 0;
+        padding: 20px 0;
+        border-top: 13px solid black;
+
+    }
+    &__logo {
+        font-family: Almarai, Arial, Helvetica, sans-serif;
+        font-size: 120px;
+    }
+}
+.nh__perio__intro {
+    &__content {
+        margin: 5% 0;
+        font-size: 20px;
+    }
+    &__p {
+        font-size: 20px;
+        color: black;
+    }
+    &__option {
+        font-size: 90px;
+        text-align: center;
+        &__periodistico {
+            font-weight: bold;
+            color: #FE6D00;
+        }
+        &__creativo {
+            font-weight: bold;
+            color: #00BFFF;
+        }
+    }
+}
+.nh__perio__video {
+    color: white;
+    background: #FE6D00;
+    padding: auto;
+
+    &__titulo{
+        padding: 1vw;
+        font-size: 96px;
+    } &__contenedor{
+        height: 80%;
+        width: 80%;
+        margin: auto;
+      
+        padding: auto;
+        background-color: #00BFFF;
+        &__reel{width: 100vw;}
+    
+    }
+}
+.nh__footer {
+    margin-top: 5%;
+    text-align: center;
+    
+    &__linkedin{
+        margin: auto;
+        padding: auto;
+        font-weight: bold;
+        font-size: 32px;
+        }
+    &__line {
+        background: #000;
+        height:0.5vh;
+        width: 15%;    
+    }
+}
